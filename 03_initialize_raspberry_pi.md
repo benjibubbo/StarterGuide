@@ -30,7 +30,7 @@ To install the MQTT modules for Ignition, you must do the following (see this vi
 1. Click on Config/MQTT Engine/Settings.
 2. In the General Tab unselect: "Block outbound edge node tag writes" and "Block outbound device tag writes." Then save changes.
 3. Under Servers "Create new MQTT Server Settings. Name new Server "PI" (so that this matches other files you download). Add URL (i.e. tcp://192.168.10.2.) Then click "Create New MQTT Server Settings."
-4. Under Namespace/Custom give a name and put the # sound to subscribe to everything, then save changes.
+4. Under Namespace/Custom give a name and put the # symbol to subscribe to everything, then save changes.
 
 # Ignition Licenses for Education
 Ignition allows individuals to use full ignition on a two hour resettable trial basis indefinitely for non commercial use.  Alternatively Ignition Maker Edition, a streamed down version, may be used for personal use without the need for resetting, but must be connected to the internet.   Inductive Automation partners with qualifying educational institutions to provide free Ignition licenses to students anywhere in the world! Apply here: [https://inductiveautomation.com/educational-engagement](https://inductiveautomation.com/educational-engagement)
