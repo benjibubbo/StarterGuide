@@ -14,6 +14,8 @@ Password: IOT12345
 	SSID (service set identifier): Config_ESP32
 	Password: 012345678
 
+	If this does not appear, reset the house while holding the two pushbuttons on the smarthome to put the device back into setup mode.
+
 5. Configure namespace of Smart Home using a web browser.
 	While connected to Config_ESP32, navigate to the IP listed on the LCD screen using a web browser.
 	![PXL_20260127_231935446](https://github.com/user-attachments/assets/be1445f4-0e8d-4762-bbfa-b91336e50bf9)
