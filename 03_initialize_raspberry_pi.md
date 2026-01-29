@@ -20,8 +20,8 @@ You can run the Ignition Gateway on a Raspberry Pi and use Ignition Designer. Do
 Now that Ignition is downloaded, you can start ignition any time from the terminal by entering cd /usr/local/ignition then running the script sudo ./ignition.sh start. Then open the gateway by entering in your browser localhost:8088 and you will be able to view the gateway!
 
 # Installing MQTT Modules on Ignition
-To install the MQTT modules for Ignition, you must do the following (see this video for more information):
-1. Use this link and locate the MQTT Distributor, Transmission, and Engine modules. Download all three and then from your Ignition Gateway you should be able to install the modules using the *.modl files you downloaded.
+To install the MQTT modules for Ignition, you must do the following (see this video for more information): [Video Link](https://youtu.be/AB4knX_4n5c)
+1. Use this [link](https://inductiveautomation.com/downloads/third-party-modules/8.3.3) and locate the MQTT Distributor, Transmission, and Engine modules. Download all three and then from your Ignition Gateway you should be able to install the modules using the *.modl files you downloaded.
 2. Open the MQTT server using the web browser on the Pi.In a web browser, type http://localhost:8088 to the ignition server.
 3. Go to Config/Sytem/Modules then locate "Install or Upgrade a Module..." at the bottom of the page.
 4. Now you will see these modules listed at the bottom of the Config bar.
