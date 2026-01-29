@@ -7,26 +7,26 @@
 SSID (service set identifier): IT4Project
 Password: IOT12345
 2. Plug in and powerup Smart Home.
-3. Connect to the IP address displayed on the Smart Home's LCD using a web browser.
-	![LCD with URL](https://github.com/user-attachments/assets/20d608ce-9460-4981-9556-bf0110ec71fb)
+3. Connect to the wifi address displayed on the Smart Home's LCD using a phone or laptop. 
+	![LCD with URL](https://github.com/user-attachments/assets/2a204688-add5-4016-b089-6b25a3d443a6)
+	![PXL_20260127_231858364](https://github.com/user-attachments/assets/44c8bdfe-92b0-4437-a84a-c9ed12e0df13)
 
-4. Configure namespace of Smart Home using a web browser.
-	![Smart home Configuration page](https://github.com/user-attachments/assets/0bb1f52b-d9cf-4b7e-99d9-571dc50d6e99)
+	SSID (service set identifier): Config_ESP32
+	Password: 012345678
+
+5. Configure namespace of Smart Home using a web browser.
+	While connected to Config_ESP32, navigate to the IP listed on the LCD screen using a web browser.
+	![PXL_20260127_231935446](https://github.com/user-attachments/assets/be1445f4-0e8d-4762-bbfa-b91336e50bf9)
+
+      ![Smart home Configuration page](https://github.com/user-attachments/assets/7aa42ee4-e932-437f-963c-6309f6642a7c)
 
   -  Ask your instructor for the neighborhood and home number:
       -  Neighborhood number- should be the same for the whole class.
       -  Home number- must be unique for each home in the neighborhood.
-  -  In industrial systems data is organized into a unified naming format following the ISA 95 standard:
-    		Enterprise→Site→Area→Line→Cell  
-  -  Research Unified Name Space (UNS) and the ISA 95 standard.  ([Here](https://www.hivemq.com/resources/smart-manufacturing-using-isa95-mqtt-sparkplug-and-uns/) is more info at HiveMQ website.
-  -  The namespace structure for the Smart Homes on this system is
-> Smart Homes Inc/Neighborhood #/Home#
+      -  Unless otherwise told, leave the other settings as their defaults.
+        ![Finalize](https://github.com/user-attachments/assets/fa547931-8f3c-4cdc-b884-9069e87cc1b2)
+	  - **Click Finalize and Reset ESP32.**
 
-*Note: Technically this doesn’t follow the ISA standard in that the namespace is truncated.*
-
-  -  **Determine the correct namespace** for your home and **add **it to the system.  Pay careful attention to spaces.  
-  -  **Click Change.**
-  -  **Click Finalize and Reset.**
 5. **Verify** that your Smart Home is working. 
   -  **Press CLOUD** then **LOCAL** buttons on the SCADA to cause the dropdown to include the new number.
   -  **Select** the new home number in the dropdown.
